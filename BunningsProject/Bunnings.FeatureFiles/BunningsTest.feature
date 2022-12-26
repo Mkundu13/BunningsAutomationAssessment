@@ -21,6 +21,7 @@ Scenario: Verify Price of item added to cart matches with price of item in cart.
 	Then Verify the item price matches the selected ItemPrice in cart
 	Then Verify the item total price matches the selected ItemPrice in cart
 
+
 Scenario Outline: Verify Number of item added to cart matches with number of items in cart.
 	Given the user is navigates on the Home page 
 	When the user enters Hammer to search textbox

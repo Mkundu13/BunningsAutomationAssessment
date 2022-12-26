@@ -146,24 +146,24 @@ this.ScenarioInitialize(scenarioInfo);
         public virtual void VerifyNumberOfItemAddedToCartMatchesWithNumberOfItemsInCart_(string itemQuantity, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Number of item added to cart matches with number of items in cart.", null, exampleTags);
-#line 24
+#line 25
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 25
- testRunner.Given("the user is navigates on the Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 26
- testRunner.When("the user enters Hammer to search textbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("the user is navigates on the Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 27
- testRunner.And("the user clicks on the perform search button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("the user enters Hammer to search textbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 28
- testRunner.And("the user saves the Price of 1 st/nd/rd/th item as alias ItemPrice", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("the user clicks on the perform search button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 29
- testRunner.And("the user selects the 1 st/nd/rd/th item and add it to cart", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("the user saves the Price of 1 st/nd/rd/th item as alias ItemPrice", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 30
- testRunner.And(string.Format("the user increases the quantity of items to {0}", itemQuantity), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("the user selects the 1 st/nd/rd/th item and add it to cart", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 31
- testRunner.And("the user clicks on ReviewNcheckout button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the user increases the quantity of items to {0}", itemQuantity), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 32
+ testRunner.And("the user clicks on ReviewNcheckout button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 33
  testRunner.Then(string.Format("Verify the {0} matches the selected item quantity in cart", itemQuantity), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -176,7 +176,7 @@ this.ScenarioInitialize(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:ItemQuantity", "5")]
         public virtual void VerifyNumberOfItemAddedToCartMatchesWithNumberOfItemsInCart__5()
         {
-#line 24
+#line 25
 this.VerifyNumberOfItemAddedToCartMatchesWithNumberOfItemsInCart_("5", ((string[])(null)));
 #line hidden
         }
@@ -188,7 +188,7 @@ this.VerifyNumberOfItemAddedToCartMatchesWithNumberOfItemsInCart_("5", ((string[
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:ItemQuantity", "3")]
         public virtual void VerifyNumberOfItemAddedToCartMatchesWithNumberOfItemsInCart__3()
         {
-#line 24
+#line 25
 this.VerifyNumberOfItemAddedToCartMatchesWithNumberOfItemsInCart_("3", ((string[])(null)));
 #line hidden
         }
